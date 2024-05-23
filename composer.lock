@@ -1,0 +1,116 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "9f8d53c982fec2606664b6c7fa038a3c",
+    "packages": [
+        {
+            "name": "n98/magerun2-dist",
+            "version": "7.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/netz98/n98-magerun2-dist.git",
+                "reference": "f4ce47491f87491777485396b38c689b9c860dc3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/netz98/n98-magerun2-dist/zipball/f4ce47491f87491777485396b38c689b9c860dc3",
+                "reference": "f4ce47491f87491777485396b38c689b9c860dc3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "replace": {
+                "n98/magerun2": "self.version"
+            },
+            "bin": [
+                "n98-magerun2"
+            ],
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "n98-magerun2 Phar distribution",
+            "homepage": "http://netz98.github.com/n98-magerun2/",
+            "keywords": [
+                "cli",
+                "installer",
+                "magento",
+                "magerun2"
+            ],
+            "support": {
+                "issues": "https://github.com/netz98/n98-magerun2/issues",
+                "source": "https://github.com/netz98/n98-magerun2-dist/tree/7.4.0"
+            },
+            "time": "2024-04-26T15:22:58+00:00"
+        },
+        {
+            "name": "rafaelstz/traducao_magento2_pt_br",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rafaelstz/traducao_magento2_pt_br.git",
+                "reference": "dac44535a1886dd6b25807fd0c1d7090de19032e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rafaelstz/traducao_magento2_pt_br/zipball/dac44535a1886dd6b25807fd0c1d7090de19032e",
+                "reference": "dac44535a1886dd6b25807fd0c1d7090de19032e",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rafael Corrêa Gomes",
+                    "homepage": "https://github.com/rafaelstz"
+                },
+                {
+                    "name": "Magento official translations project for Magento 2",
+                    "homepage": "https://crowdin.com/project/magento-2"
+                }
+            ],
+            "description": "Tradução Magento 2 para Português do Brasil oficial da Magento ",
+            "homepage": "https://github.com/rafaelstz/traducao_magento2_pt_br",
+            "support": {
+                "issues": "https://github.com/rafaelstz/traducao_magento2_pt_br/issues",
+                "source": "https://github.com/rafaelstz/traducao_magento2_pt_br/tree/master"
+            },
+            "funding": [
+                {
+                    "url": "https://www.buymeacoffee.com/rafaelcg",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/rafaelstz",
+                    "type": "github"
+                }
+            ],
+            "time": "2021-12-16T22:23:30+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "rafaelstz/traducao_magento2_pt_br": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.2.0"
+}

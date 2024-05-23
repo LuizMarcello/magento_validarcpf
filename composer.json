@@ -1,0 +1,6 @@
+{
+    "require": {
+        "rafaelstz/traducao_magento2_pt_br": "dev-master",
+        "n98/magerun2-dist": "^7.4"
+    }
+}
